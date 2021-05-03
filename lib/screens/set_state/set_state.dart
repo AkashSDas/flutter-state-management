@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-class SetState extends StatefulWidget {
+class SetStateScreen extends StatefulWidget {
   @override
-  _SetStateState createState() => _SetStateState();
+  _SetStateScreenState createState() => _SetStateScreenState();
 }
 
-class _SetStateState extends State<SetState> {
+class _SetStateScreenState extends State<SetStateScreen> {
   int _counter = 0;
 
   void _incrementCounter() => setState(() => _counter++);

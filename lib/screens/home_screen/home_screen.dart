@@ -11,6 +11,7 @@ class HomeScreen extends StatelessWidget {
             children: [
               _buildBtn('/', 'Home', context),
               _buildBtn('/set-state', 'Set State', context),
+              _buildBtn('/stateful-builder', 'Stateful Builder', context),
             ],
           ),
         ),

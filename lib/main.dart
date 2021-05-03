@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
 
   Map<String, Widget Function(BuildContext)> _routes(BuildContext context) => {
         '/': (context) => HomeScreen(),
-        '/set-state': (context) => SetState(),
+        '/set-state': (context) => SetStateScreen(),
+        '/stateful-builder': (context) => StatefulBuilderScreen(),
       };
 }
