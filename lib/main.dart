@@ -33,5 +33,8 @@ class MyApp extends StatelessWidget {
         '/rx-dart-using-dart': (context) => RxDartUsingDartScreen(),
         '/rx-dart-using-rxdart-package': (context) =>
             RxDartUsingRxDartPackageScreen(),
+        '/bloc-from-scratch': (context) => BlocFromScratchScreen(),
+        '/bloc-using-flutter-bloc-package': (context) =>
+            BlocUsingFlutterBlocPackageScreen(),
       };
 }

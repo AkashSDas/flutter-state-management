@@ -19,6 +19,12 @@ class HomeScreen extends StatelessWidget {
                 'Rx Dart using RxDart package',
                 context,
               ),
+              _buildBtn('/bloc-from-scratch', 'Bloc from Scratch', context),
+              _buildBtn(
+                '/bloc-using-flutter-bloc-package',
+                'Bloc using Flutter Bloc package',
+                context,
+              ),
             ],
           ),
         ),
