@@ -13,6 +13,7 @@ class HomeScreen extends StatelessWidget {
               _buildBtn('/set-state', 'Set State', context),
               _buildBtn('/stateful-builder', 'Stateful Builder', context),
               _buildBtn('/inherited-widget', 'Inherited Widget', context),
+              _buildBtn('/rx-dart-using-dart', 'Rx Dart using Dart', context),
             ],
           ),
         ),
