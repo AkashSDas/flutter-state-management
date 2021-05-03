@@ -36,7 +36,7 @@ flutter run
 ## Images
 
 ![](./docs/imgs/img-1.png)
-![](./docs/imgs/img-1.png)
+![](./docs/imgs/img-2.png)
 ![](./docs/imgs/img-3.png)
 ![](./docs/imgs/img-4.png)
 
