@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class HomeeScreen extends StatelessWidget {
+class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) => Scaffold(
         appBar: AppBar(title: Text('State Management')),
@@ -10,6 +10,7 @@ class HomeeScreen extends StatelessWidget {
           child: ListView(
             children: [
               _buildBtn('/', 'Home', context),
+              _buildBtn('/set-state', 'Set State', context),
             ],
           ),
         ),

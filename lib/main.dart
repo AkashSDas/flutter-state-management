@@ -9,9 +9,13 @@ class MyApp extends StatelessWidget {
         title: 'State Management',
         debugShowCheckedModeBanner: false,
         routes: _routes(context),
+        theme: ThemeData(
+          textTheme: TextTheme(bodyText2: TextStyle(fontSize: 60)),
+        ),
       );
 
   Map<String, Widget Function(BuildContext)> _routes(BuildContext context) => {
-        '/': (context) => HomeeScreen(),
+        '/': (context) => HomeScreen(),
+        '/set-state': (context) => SetState(),
       };
 }
