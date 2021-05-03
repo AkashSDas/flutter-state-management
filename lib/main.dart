@@ -36,5 +36,7 @@ class MyApp extends StatelessWidget {
         '/bloc-from-scratch': (context) => BlocFromScratchScreen(),
         '/bloc-using-flutter-bloc-package': (context) =>
             BlocUsingFlutterBlocPackageScreen(),
+        '/provider-using-provider-package': (context) =>
+            ProviderUsingProviderPackage(),
       };
 }

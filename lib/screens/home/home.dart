@@ -25,6 +25,11 @@ class HomeScreen extends StatelessWidget {
                 'Bloc using Flutter Bloc package',
                 context,
               ),
+              _buildBtn(
+                '/provider-using-provider-package',
+                'Provider using Provider package',
+                context,
+              ),
             ],
           ),
         ),

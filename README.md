@@ -4,6 +4,7 @@
 - rx-dart
 - stateful-builder
 - inherited-widgets
+- provider
 
 ## License
 
