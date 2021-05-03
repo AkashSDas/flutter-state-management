@@ -18,5 +18,6 @@ class MyApp extends StatelessWidget {
         '/': (context) => HomeScreen(),
         '/set-state': (context) => SetStateScreen(),
         '/stateful-builder': (context) => StatefulBuilderScreen(),
+        '/inherited-widget': (context) => InheritedWidgetScreen(),
       };
 }
